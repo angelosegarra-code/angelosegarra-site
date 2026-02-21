@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background-color: #f7f6f3;
+  color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.hero {
+  max-width: 700px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.intro {
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 20px;
+  border: 1px solid #111;
+  color: #111;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #111;
+  color: #fff;
+}
